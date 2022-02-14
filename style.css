@@ -1,0 +1,36 @@
+* {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.background {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.home ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.home ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  background-image: url(/lobby-gc7732d86f_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.container p {
+  text-align: center;
+  color: #fff !important;
+  font-size: 5vmin;
+}
